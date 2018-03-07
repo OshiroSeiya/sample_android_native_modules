@@ -7,4 +7,9 @@ public class ToastModule extends ReactContextBaseJavaModule {
     public ToastModule(ReactApplicationContext reactContext) {
         super(reactContext);
     }
+
+    @Override
+    public String getName() {
+        return "ToastExample";
+    }
 }
